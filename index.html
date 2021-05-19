@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>heart weather</title>
+  <link rel="stylesheet" href="app.css">
+  <!--  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css"> -->
+
+</head>
+
+<body>
+
+  <video autoplay muted loop id="myVideo">
+    <source src="./medias/mist_day.mp4" type="video/mp4">
+    </video>
+
+
+
+    <section id="app">
+
+      <h1>
+        <span id="ville">heart weather</span>
+        <span class="tooltip">Tapez une autre ville si vous le souhaitez</span>
+      </h1>
+
+      <!-- <i class="wi wi-day-rain"></i> -->
+
+      <h2>
+        <span id="temperature">loading</span>  <!--(<span id="conditions">Ciel dégagé</span>) -->
+      </h2>
+
+      <h2>
+        <span id="date"></span>
+      </h2>
+      <h3>
+        <p> <span id = "distance"></span> km </p>
+      </h3>
+
+
+
+    </section>
+
+    <input type="hidden" id="la" value="0"></input>
+    <input type="hidden" id="ln" value="0"></input>
+
+    <script src="meteo2.js"></script>
+
+
+
+  </body>
+  </html>

@@ -1,0 +1,72 @@
+/*.clear{
+  background-image: url("/Users/thiaba/Desktop/3_VISU/VISU THIABA EGUTCHI/1_poster1.jpg");
+}
+.clouds {
+  background-image: url("/Users/thiaba/Desktop/3_VISU/VISU THIABA EGUTCHI/1_poster2.jpg");
+}
+.rain{
+  background-image: url("/Users/thiaba/Desktop/3_VISU/VISU THIABA EGUTCHI/1_poster3.jpg");
+}
+.snow{
+  background-image: url("/Users/thiaba/Desktop/3_VISU/VISU THIABA EGUTCHI/1_poster4.jpg");
+}
+*/
+
+.nuit {
+  color:white;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+section{
+  z-index: 1;
+}
+
+#ville{
+  display: none;
+}
+
+#conditions{
+  display: none;
+}
+
+body{
+  font-family: 'Trebuchet MS';
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+i.wi {
+  font-size: 5em;
+  line-height: 5em;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+letter-spacing: 2px;
+word-spacing: 0px;
+font-weight: 540;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
+
+.tooltip{
+  display: none;
+}
